@@ -218,7 +218,7 @@ h1:hover {
   letter-spacing: 1px;
 }
 #sectionProgramingSkill .skill:hover .bar {
-  border: 1px solid #eee;
+  border: 2px solid #eee;
 }
 #sectionProgramingSkill .skill:hover .bar .innerbar {
   background-color: #eee;
@@ -334,18 +334,18 @@ h1:hover {
   padding-top: 20px;
   padding-bottom: 30px;
 }
-#sectionOtherSkill .logo {
+#sectionOtherSkill .skillLogo {
   width: 130px;
   height: 130px;
   display: flex;
   justify-content: center;
 }
-#sectionOtherSkill .logo img {
+#sectionOtherSkill .skillLogo img {
   width: 100%;
   height: auto;
   transition: 0.5s;
 }
-#sectionOtherSkill .logo img:hover {
+#sectionOtherSkill .skillLogo img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
@@ -462,7 +462,7 @@ h1:hover {
   display: block;
   width: 100%;
   height: 8px;
-  background-color: #5D6B9B;
+  background: linear-gradient(160deg, #77A1D3 30%, #79CBCA 70%, #E684AE);
   margin-top: 10px;
 }
 #sectionDesignAndIllustration .contentDesignAndIllustration .workPicUi {
@@ -566,7 +566,7 @@ h1:hover {
   display: block;
   width: 15px;
   height: 100%;
-  background-color: #5D6B9B;
+  background: linear-gradient(180deg, #77A1D3 30%, #79CBCA 70%, #E684AE);
   position: absolute;
 }
 #sectionVideoAndWriting .contentVideoAndWriting .workTitle .workName {
